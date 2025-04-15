@@ -8,7 +8,6 @@ multiplication algorithm for large integers.
 #include <cstdint>
 #include <stdexcept> 
 
- 
 uint64_t karatsuba(int x, int y){
     if(x < 0 || y < 0){
         std::cout<<"Negative numbers are not supported. ";
